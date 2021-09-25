@@ -109,7 +109,14 @@
     <!--jQuery Library file-->
     <script src="./js/jquery.min.js"></script>
 
-    <script type="text/javascript"></script>
+    <script>
+        // $ is now alias to jQuery
+        var $ = jQuery.noConflict();
+        $(document).ready(function () {
+            $().hide();
+        });
+
+    </script>
 
 
     <!-- -------owl-carousel js--------  -->
