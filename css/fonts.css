@@ -1,0 +1,30 @@
+/*Font Family: Bonheur_Royale*/
+
+@font-face {
+  font-family: Bonheur_Royale;
+  src: url(../Fonts/Bonheur_Royale/BonheurRoyale-Regular.ttf);
+}
+/*Font Family: Grey_Qo*/
+
+@font-face {
+  font-family: Grey_Qo;
+  src: url(../Fonts/Grey_Qo/GreyQo-Regular.ttf);
+}
+/*Font Family: Raleway*/
+
+@font-face {
+  font-family: Raleway;
+  src: url(../Fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+/*Font Family: Roboto*/
+
+@font-face {
+  font-family: Roboto;
+  src: url(../Fonts/Roboto/Roboto-BlackItalic.ttf);
+}
+/*Font Family: Ubuntu*/
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(../Fonts/Ubuntu/Ubuntu-LightItalic.ttf);
+}
