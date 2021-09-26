@@ -1,13 +1,9 @@
 $(document).ready(function(){
     $nav = $('.nav');
-    $togglecollapse = $('.toggle-collapse')
+    $toggleCollapse = $('.toggle-collapse');
 
-    /**click event on toggle menu */
-    $togglecollapse.click(function(){
-        $nav.toggleclass('.collapse');
-    })
-
-    //owl-carousel for blog
-    $('.owl-carousel').owlCarousel();
-
+    /** click event on toggle menu */
+    $toggleCollapse.click(function(){
+        $nav.click('collapse');
+    });
 });
