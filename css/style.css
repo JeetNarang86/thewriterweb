@@ -179,9 +179,9 @@ h3 {
 
 /*-----x-----Site Title------x-------*/
 
-/* ---------------Blog Carousel-------------- */
+/*---------------Blog Carousel--------------*/
 
-.blog{
+main .blog {
   background: url(../Assets/Abstract01.jpg);
   background-repeat: no-repeat;
   background-position: right;
@@ -189,7 +189,7 @@ h3 {
   width: 100%;
 }
 
-/* -----x----------Blog Carousel------x-------- */
+/*-----x----------Blog Carousel------x--------*/
 
 /* -----x----Main Section------x------- */
 
@@ -204,7 +204,6 @@ h3 {
   .toggle-collapse {
     display: initial;
   }
-
-};
+}
 
 /*  x  Viewpoint less then or equal to 750px  x  */

@@ -1,136 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Writer Web</title>
 
     <!--Font awesome icon-->
 
-    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/all.css" />
 
     <!-- -------owl-carousel-------- -->
-    <link rel="stylesheet" href="./css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="./css/owl.theme.green.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.green.css" />
 
     <!--custom style-->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-</head>
-
-
-<body>
-
+  <body>
     <!-- -------------------Navigation ------------------------ -->
 
     <nav class="nav">
-        <div class="nav-menu flex-row">
-            <div class="nav-brand">
-                <a href="#" class="text-gray">The Writer Web</a>
-            </div>
-            <div class="toggle-collapse">
-                <div class="toggle-icons">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </div>
-            <div>
-                <ul class="nav-items">
-                    <li class="nav-links">
-                        <a href="#">Home</a>
-                    </li>
-                    <li class="nav-links">
-                        <a href="#">Category</a>
-                    </li>
-                    <li class="nav-links">
-                        <a href="#">Pages</a>
-                    </li>
-                    <li class="nav-links">
-                        <a href="#">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="social text-gray">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
+      <div class="nav-menu flex-row">
+        <div class="nav-brand">
+          <a href="#" class="text-gray">The Writer Web</a>
         </div>
+        <div class="toggle-collapse">
+          <div class="toggle-icons">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+        <div>
+          <ul class="nav-items">
+            <li class="nav-links">
+              <a href="#">Home</a>
+            </li>
+            <li class="nav-links">
+              <a href="#">Category</a>
+            </li>
+            <li class="nav-links">
+              <a href="#">Pages</a>
+            </li>
+            <li class="nav-links">
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social text-gray">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
     </nav>
-
-
 
     <!-- -------x------------Navigation --------------x---------- -->
 
     <!--------- Main Site Section ------------>
 
     <main>
-        <!----------------Site Title-------------------->
+      <!----------------Site Title-------------------->
 
-        <section class="site-title">
-            <div class="site-background">
-                <h3>Writer's Hub</h3>
-                <h1>Exploring Writers</h1>
-                <button class="btn">Explore</button>
-            </div>
-        </section>
+      <section class="site-title">
+        <div class="site-background">
+          <h3>Writer's Hub</h3>
+          <h1>Exploring Writers</h1>
+          <button class="btn">Explore</button>
+        </div>
+      </section>
 
-        <!---------x-------Site Title-----x--------------->
+      <!---------x-------Site Title-----x--------------->
 
-        <!-- ------------Blog Carousel--------- -->
+      <!-----------------Blog Carousel----------------->
 
-        <section>
-            <div class="blog">
-                <div class="container">
-                    <div class="owl-carousel owl-theme blog-post">
-                        <div class="blog-content">
-                            <img src="./Assets/blog post/post1.jpg"alt="post-1">
-                            <div class="blog-title">
-                                <h3>7 Indian companies in Global Fortune 500</h3>
-                                <button class="btn btn-blog">News</button>
-                                <span>2 Minutes</span>
-                            </div>
-                        </div>
-                    </div>
+      <section>
+        <div class="blog">
+          <div class="container">
+            <div class="owl-carousel owl-theme blog-post">
+              <div class="blog-content">
+                <img src="./Assets/blog post/post1.jpg" alt="post-1" />
+                <div class="blog-title">
+                  <h3>7 Indian companies in Global Fortune 500</h3>
+                  <button class="btn btn-blog">News</button>
+                  <span>2 Minutes</span>
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!-- ----x--------Blog Carousel-------x-- -->
-
-
+      <!---------x--------Blog Carousel-----------x---->
     </main>
 
     <!----x----- Main Site Section -----x------->
-
 
     <!--jQuery Library file-->
     <script src="./js/jquery.min.js"></script>
 
     <script>
-        // $ is now alias to jQuery
-        var $ = jQuery.noConflict();
-        $(document).ready(function () {
-            $().hide();
-        });
-
+      // $ is now alias to jQuery
+      var $ = jQuery.noConflict();
+      $(document).ready(function () {
+        $().hide();
+      });
     </script>
-
 
     <!-- -------owl-carousel js-------- -->
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/owl.carousel.js"></script>
 
-
-
     <!--custom Javascript file-->
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-
-
-
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
