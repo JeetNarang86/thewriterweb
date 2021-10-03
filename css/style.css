@@ -131,10 +131,11 @@ h3 {
   font-size: 1.6rem;
   padding: 1rem 0;
   display: block;
+  font-family: var(--Bonheur_Royale);
 }
 
 .social i {
-  padding: 0 0.2rem;
+  padding: 0.3rem 0.2rem;
 }
 
 .social i:hover {
@@ -180,11 +181,11 @@ h3 {
 
 /* ---------------Blog Carousel-------------- */
 
-.blog {
+.blog{
   background: url(../Assets/Abstract01.jpg);
   background-repeat: no-repeat;
   background-position: right;
-  height: 170vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -203,6 +204,7 @@ h3 {
   .toggle-collapse {
     display: initial;
   }
-}
+
+};
 
 /*  x  Viewpoint less then or equal to 750px  x  */
