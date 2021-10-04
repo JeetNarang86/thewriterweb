@@ -66,6 +66,26 @@ h3 {
   cursor: pointer;
 }
 
+span {
+  font-family: var(--Grey_Qo);
+}
+
+.container {
+  margin: 0 5vw;
+}
+
+.text-gray {
+  color: var(--text-gray);
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+p {
+  font-family: var(--Roboto);
+  color: var(--light-blue);
+}
+
 /*------x------Global classes------x-------*/
 
 /*-------------navbar-----------*/
@@ -91,10 +111,6 @@ h3 {
   display: none;
 }
 
-.collapse {
-  height: 30rem;
-}
-
 .toggle-icons {
   display: flex;
   justify-content: flex-end;
@@ -104,6 +120,10 @@ h3 {
 .toggle-icons i {
   font-size: 1.4rem;
   color: var(--text-gray);
+}
+
+.collapse {
+  height: 30rem;
 }
 
 .nav-items {
@@ -117,6 +137,8 @@ h3 {
   position: relative;
   font-family: var(--Grey_Qo);
   font-size: 1.8rem;
+  letter-spacing: 3px;
+  font-weight: bold;
 }
 
 .nav-links:hover {
@@ -132,10 +154,15 @@ h3 {
   padding: 1rem 0;
   display: block;
   font-family: var(--Bonheur_Royale);
+  font-size: 1.6rem;
+}
+
+.social {
+  padding: 1.4rem 0;
 }
 
 .social i {
-  padding: 0.3rem 0.2rem;
+  padding: 0 0.2rem;
 }
 
 .social i:hover {
@@ -181,7 +208,7 @@ h3 {
 
 /*---------------Blog Carousel--------------*/
 
-main .blog {
+.blog {
   background: url(../Assets/Abstract01.jpg);
   background-repeat: no-repeat;
   background-position: right;
