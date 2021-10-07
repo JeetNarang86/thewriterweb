@@ -1,0 +1,10 @@
+ <table border="0" width="100%">
+        <tr>
+          <td>
+            <marquee scrollamount="10">
+              <img src="Assets/blog/post1.jpg" width="100" height="100" />
+              <img src="Assets/Abstract01.jpg" width="100" height="100" />
+            </marquee>
+          </td>
+        </tr>
+      </table>

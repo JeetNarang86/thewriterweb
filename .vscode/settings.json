@@ -1,3 +1,7 @@
 {
-    "git.ignoreLimitWarning": true
+  "editor.smoothScrolling": true,
+  "git.ignoreLimitWarning": true,
+  "editor.mouseWheelZoom": true,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on"
 }
