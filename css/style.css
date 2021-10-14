@@ -164,6 +164,11 @@ p {
 .social i:hover {
   color: #00f2fe;
 }
+
+.social a {
+  display: inline-block;
+}
+
 /*----x---------navbar-----x------*/
 
 /* ---------Main Section-------------- */
@@ -393,6 +398,10 @@ h3 {
   margin: 1rem 0;
 }
 
+.form-btn:active {
+  transform: scale(0.8);
+}
+
 .popular-tags {
   padding: 4rem 0;
 }
@@ -470,11 +479,26 @@ footer.footer .follow-us div i {
 footer.footer .rights {
   justify-content: center;
   font-family: var(--Roboto);
-  color: white;
 }
 
 footer.footer .rights h4 a {
+  text-align: center;
   color: white;
+}
+
+.move-up {
+  position: absolute;
+  right: 6%;
+  top: 50%;
+}
+
+.move-up span {
+  color: var(--midnight);
+}
+
+.move-up span:hover {
+  color: white;
+  cursor: pointer;
 }
 
 /* ---x-----Footer-------x---*/
