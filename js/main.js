@@ -1,17 +1,15 @@
-const Responsive = {
+const responsive = {
+  0: {
+    items: 1,
+  },
   320: {
     items: 1,
-    nav: true,
   },
-
   560: {
     items: 2,
-    nav: true,
   },
-
   960: {
     items: 3,
-    nav: true,
   },
 };
 
@@ -19,32 +17,28 @@ $(document).ready(function () {
   $nav = $(".nav");
   $toggleCollapse = $(".toggle-collapse");
 
-  /**click event on toggle menu */
+  /** click event on toggle menu */
   $toggleCollapse.click(function () {
     $nav.toggleClass("collapse");
   });
 
-  //owl-carousel for blog
-
+  // owl-crousel for blog
   $(".owl-carousel").owlCarousel({
     loop: true,
-    margin: 10,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 3000,
-    autoplayHoverPause: true,
     dots: false,
     nav: true,
     navText: [
       $(".owl-navigation .owl-nav-prev"),
       $(".owl-navigation .owl-nav-next"),
     ],
-    ResponsiveClass: true,
+    responsive: responsive,
   });
 
-  // click to scroll up
-
+  // click to scroll top
   $(".move-up span").click(function () {
-    $("html,body").animate(
+    $("html, body").animate(
       {
         scrollTop: 0,
       },
