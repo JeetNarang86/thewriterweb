@@ -561,4 +561,13 @@ footer.footer .rights h4 a {
   }
 }
 
+footer .rights {
+  padding: 0 1.4rem;
+  text-align: center;
+}
+
+nav .toggle-collapse {
+  width: 80% !important;
+}
+
 /*  x  Viewpoint less then or equal to 520px  x  */

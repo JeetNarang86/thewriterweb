@@ -13,6 +13,10 @@ const responsive = {
   },
 };
 
+function myonClickFn() {
+  document.location.href = "indiancompanies.html";
+}
+
 $(document).ready(function () {
   $nav = $(".nav");
   $toggleCollapse = $(".toggle-collapse");
@@ -25,7 +29,7 @@ $(document).ready(function () {
   // owl-crousel for blog
   $(".owl-carousel").owlCarousel({
     loop: true,
-    autoplay: false,
+    autoplay: true,
     autoplayTimeout: 3000,
     dots: false,
     nav: true,
@@ -45,4 +49,7 @@ $(document).ready(function () {
       1000
     );
   });
+
+  // AOS instance
+  AOS.init();
 });
