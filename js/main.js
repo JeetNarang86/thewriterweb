@@ -17,6 +17,10 @@ function myonClickFn() {
   document.location.href = "indiancompanies.html";
 }
 
+function myonClickFn() {
+  document.location.href = "ABcollabratescoinDCX.html";
+}
+
 $(document).ready(function () {
   $nav = $(".nav");
   $toggleCollapse = $(".toggle-collapse");
