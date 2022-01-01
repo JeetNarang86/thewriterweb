@@ -210,7 +210,6 @@ h3 {
 /*---------------Blog Carousel--------------*/
 
 .blog {
-  background: url(..//Assets/abstract.jpg);
   background-repeat: no-repeat;
   background-position: right;
   height: 100vh;
